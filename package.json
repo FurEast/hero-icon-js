@@ -14,7 +14,7 @@
     "build": "node ./scripts/build.js"
   },
   "devDependencies": {
-    "heroicons": "^1.0.1",
+    "heroicons": "^2.1.4",
     "js-beautify": "^1.13.13",
     "terser": "^5.6.1"
   }

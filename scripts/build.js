@@ -4,8 +4,8 @@ const beautify   = require('js-beautify').js
 const { minify } = require('terser')
 
 void(async () => {
-  await generate('node_modules/heroicons/outline', 'outline', 'HeroIconOutline')
-  await generate('node_modules/heroicons/solid', 'solid', 'HeroIconSolid')
+  await generate('node_modules/heroicons/24/outline', 'outline', 'HeroIconOutline')
+  await generate('node_modules/heroicons/24/solid', 'solid', 'HeroIconSolid')
 })()
 
 async function generate(src, variant, className) {
